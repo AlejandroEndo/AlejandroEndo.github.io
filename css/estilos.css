@@ -64,9 +64,14 @@ img.fon {
     right: 8%; 
     
 }
+#imghome img:hover{
+    transform: translate(20px);
+    transition: all 0.5s ease-out;  
+}
 #imghome img{
     width: 100%;
     animation: def 2s;
+    transition: all 0.5s ease-out;  
 }
 #made{
    position: fixed;
@@ -111,7 +116,6 @@ img.fon {
 }
 #skills{
     width: 675px;
-    animation: def 2s; 
     margin-top: 168px;
 }
 #skills ul{
@@ -374,7 +378,7 @@ a.fcerrar {
 }
 @keyframes def{
 
-  0%{margin-left: 5%;} 
+  0%{margin-left: 10%;} 
   100%{margin-left: 0;}
 
 }
