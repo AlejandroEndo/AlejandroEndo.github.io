@@ -350,9 +350,17 @@ filter: grayscale(90%);
     width: 100%;
 
 }
-.sel{   
+.menu img:hover{
+    -webkit-filter: invert(100%);
+filter: invert(100%);
+}
+.sel{     
     background:#c9116a;
     animation: men 0.5s;
+}
+.sel img{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);  
 }
 
 @keyframes men{
