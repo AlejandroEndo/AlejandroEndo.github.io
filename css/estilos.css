@@ -404,6 +404,12 @@ filter: grayscale(90%);
       color: rgba(201,17,106,1);
         z-index: 2;
             }
+    #titulo {
+    bottom: 201px;
+    }
+    
+    #nombre p {
+    font-size: 80px;}
 
 }    
 
