@@ -469,7 +469,6 @@ filter: grayscale(90%);
     }
     .detalle{
         width: 85%;
-        border-bottom: 1px solid #e3e3e3;
     }
  
 }
