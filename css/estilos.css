@@ -118,18 +118,24 @@ img.fon {
 #skills{
     width: 675px;
     margin-top: 168px;
+    
 }
 #skills ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
+    
 }
 #skills img{
     width: 135px;
+   
 }
-
+#work{
+     animation: def 2s;
+}
 #work img{
+    
     width: 100%;
     margin-bottom: -7px;
     -webkit-filter: grayscale(50%);
