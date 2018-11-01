@@ -397,3 +397,13 @@ filter: grayscale(90%);
 
 }
 
+
+@media only screen and (max-width: 1024px){
+    
+    #nombre {
+      color: rgba(201,17,106,1);
+        z-index: 2;
+            }
+
+}    
+
