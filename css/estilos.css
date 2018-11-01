@@ -10,11 +10,18 @@
         height: 100%;
         background: #dad9d8;
         z-index: -1;
-        background-image: url(../img/fondo.png);
-        background-repeat: no-repeat;
         font-family: 'Overpass', sans-serif;
+  
         
-    }
+      }
+img.fon {
+    width: 90%;
+    text-align: center;
+    transition: all 4s ease-out;     
+}
+.fon:hover{
+}
+
 .container{
     width: 83.3%;
     margin: auto;
