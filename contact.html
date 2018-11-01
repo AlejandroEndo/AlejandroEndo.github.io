@@ -25,10 +25,10 @@
             <li><a href=""><img src="img/be.png" alt=""></a></li>
             <li><a href=""><img src="img/op.png" alt=""></a></li>
         </ul>
-        <form name="sentMessage" id="contactForm" novalidate>
-            <input type="text"  placeholder="Name" id="name" required data-validation-required-message="Por favor escriba su nombre y apellido."><br>
-            <input type="email" placeholder="Email" id="email" required data-validation-required-message="Por favor escriba su dirección de correo electrónico."><br>
-            <textarea placeholder="Message" required data-validation-required-message="Por favor escriba su mensaje."></textarea><br>
+        <form method="post" action="contact_me.php">
+            <input type="text" name="name" placeholder="Name"><br>
+            <input type="email" name="email" placeholder="Email"><br>
+            <textarea name="message" placeholder="Message"></textarea><br>
             <button type="submit">Send</button>
         </form>  
        </div> 
