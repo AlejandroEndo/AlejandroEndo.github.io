@@ -1,0 +1,371 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+     
+    body{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #dad9d8;
+        z-index: -1;
+        background-image: url(../img/fondo.png);
+        background-repeat: no-repeat;
+        font-family: 'Overpass', sans-serif;
+        
+    }
+.container{
+    width: 83.3%;
+    margin: auto;
+    margin-top: 57px;
+}
+#nombre{
+    position: fixed;
+    bottom: 280px;
+    width: 480px;
+    display: inline-block;
+    animation: ent 2s;
+    transition: all 0.2s ease-out;    
+}
+#nombre:hover{
+    transform: scale(1.05);
+}
+#nombre p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 91px;
+    font-weight: 700;
+    display: inline-block;
+}
+.color{
+    color: #c9116a;
+}
+#titulo{
+    position: fixed;
+    bottom: 231px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 31px; 
+    color:#5e5e5e;
+    animation: ent 2s;
+    display: flex;
+}
+#imghome{
+    width: 550px;
+    position: fixed;
+    bottom: 305px;
+    right: 8%; 
+    
+}
+#imghome img{
+    width: 100%;
+    animation: def 2s;
+}
+#made{
+   position: fixed;
+   bottom: 97px;
+   right: 0.6%;
+   font-family: 'IBM Plex Mono', monospace;
+   font-size: 25px;
+      
+}
+.abou{
+    width: 660px;
+    margin-top: 148px;
+    animation: ent 2s;    
+}
+.abou h2{
+    font-size: 77px;
+    font-weight: 400;
+    color:#cc0066;
+    animation: def 2s;    
+}
+.abou p{
+    font-size: 24px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+#rotar{
+    position: fixed;
+    bottom: -228px;
+    right: -162px;
+}
+#rotar img{
+    transition: all 12s ease-out;
+}
+#rotar img:hover{
+    transform: rotate(360deg);
+}
+#allskil{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#skills{
+    width: 675px;
+    animation: def 2s; 
+    margin-top: 168px;
+}
+#skills ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+#skills img{
+    width: 135px;
+}
+
+#work img{
+    width: 100%;
+    margin-bottom: -7px;
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+    transition: all 0.2s ease-out;     
+}
+#work ul li {
+    width: 25%;
+    overflow: hidden;
+    
+}
+/**#work a:hover:before {
+    color: #fff;
+    border: 1px solid red;
+    position: absolute;
+    content: "View project";
+    text-align: center;
+    transition: all 0.5s;
+}*/
+#work ul li img:hover {
+    transform: scale(1.1);
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);    
+    transition: all 0.2s ease-out;         
+    
+}
+#work ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.modal{
+    display: none;
+}
+.modal:target{
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background: rgb(0,0,0,0.8);
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+.dentro{ 
+    position: absolute;
+    width: 88.4%;
+    background: #fff;
+    border-radius: 3px;
+    display: flex;
+}
+a.cerrar{
+    position: fixed;
+    top: 4%;
+    right: 2%;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;    
+    font-size: 25px;
+    font-weight: 100;
+}
+
+a.fcerrar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;}
+/*slide*/
+.slides{
+    overflow: hidden;
+}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.flex-control-nav{
+    text-align: center;
+    position: relative;
+    top: -36px;
+	z-index: 999;
+}
+
+.flex-control-nav li{
+	display: inline-block;
+	margin: 0 6px;
+}
+
+.flex-control-nav li a{
+	display: block;
+	background: #777777;
+	width: 12px;
+	height: 12px;
+	border-radius: 12px;
+	text-indent: -9999px;
+    border: 1px solid #fff;
+}
+
+.flex-control-nav li a:hover{
+	background: #2E2E2E;
+}
+
+.flex-control-nav li a.flex-active{
+	background: #2E2E2E;	
+}
+
+.flex-direction-nav a{
+     display: none;
+}
+
+/*slide*/
+.contenido{  
+    width: 85%;
+    margin-bottom: -33px;    
+}
+.contenido img{
+    width: 100%;
+}
+.detalle{   
+    width: 260px;
+    padding: 20px;
+    border-left: 1px solid #e3e3e3;
+    
+}
+.detalle h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.detalle p{
+    color: #989898;
+    margin-bottom: 15px;
+}
+#contact{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+#co1{
+    width: 30%;
+}
+#co1 h3{
+    font-size: 77px;
+    font-weight: 400;
+    color: #cc0066;
+}
+#co1 p{
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+#co1 ul{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    list-style-type: none;
+    margin-top: 30px;
+}
+#co1 ul li{
+    width: 50px;
+}
+#co1 img{
+    width: 100%;
+}
+#co1 form{
+    margin-top: 45px;
+}
+#co1 input, textarea{
+    width: 97%;
+    padding: 6px;
+    margin-bottom: 10px;
+    font-size: 18px;    
+}
+#co1 textarea{
+    height: 130px;
+}
+#co1 button{
+    border: none;
+    background: #cc0066;
+    color: #fff;
+    padding: 8px;
+    width: 100px;
+    margin-top: 10px;
+    float: right;
+}
+#co2{
+    width: 40%;
+}
+#co2 img{
+    width: 100%;
+}
+.menu{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: #999999;
+      z-index: 1;  
+}
+.menu ul {
+    list-style-type: none;
+    display: block;
+    display: flex;
+    justify-content: center;  
+}
+.menu ul li{
+    width: 50px;
+    height: 50px; 
+    padding: 0 5px
+}
+.menu ul li img{
+    width: 100%;
+
+}
+.sel{   
+    background:#c9116a;
+    animation: men 0.5s;
+}
+
+@keyframes men{
+
+  0%{background-color: rgba(201,17,106,0)}
+  100%{background-color: rgba(201,17,106,1)}
+
+}
+
+@keyframes ent{
+
+  0%{margin-left: -5%;} 
+  100%{margin-left: 0;}
+
+}
+@keyframes def{
+
+  0%{margin-left: 5%;} 
+  100%{margin-left: 0;}
+
+}
