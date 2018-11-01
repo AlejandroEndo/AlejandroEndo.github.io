@@ -426,7 +426,7 @@ filter: grayscale(90%);
     #rotar{
         transform: scale(0.6);
         left: -80px;
-        top: -60px;
+        top: 120px;
         z-index: -2;
     }
 }
