@@ -313,6 +313,14 @@ a.fcerrar {
 }
 #co1 img{
     width: 100%;
+-webkit-filter: grayscale(90%);
+filter: grayscale(90%);
+    transition: 0.2s all ease-out;
+}
+#co1 img:hover{
+   -webkit-filter: grayscale(0%);
+   filter: grayscale(0%);
+    transition: 0.2s all ease-out;    
 }
 #co2{
     width: 40%;
