@@ -405,10 +405,12 @@ filter: grayscale(90%);
         z-index: 2;
             }
     #titulo {
-    bottom: 201px;
+    bottom: 162px;
     font-size: 25px;        
     }
-    
+    #nombre{
+            bottom: 235px;
+    }
     #nombre p {
     font-size: 63px;}
     
