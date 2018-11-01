@@ -303,7 +303,8 @@ a.fcerrar {
     width: 97%;
     padding: 6px;
     margin-bottom: 10px;
-    font-size: 18px;    
+    font-size: 18px;   
+    border: none;
 }
 #co1 textarea{
     height: 130px;
