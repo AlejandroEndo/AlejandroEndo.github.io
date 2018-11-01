@@ -422,6 +422,18 @@ filter: grayscale(90%);
     .abou h2{
         font-size: 50px;
     }
+    #skills{
+            margin-top: 0;
+    }
+    #skills img {
+    width: 100%;
+         }
+    #skills ul{
+        width: 100%;
+    }
+    #skills ul li{
+        width: 20%;
+    }
 
 }
 
