@@ -14,6 +14,9 @@
   
         
       }
+.fon{
+    position: fixed;
+}
 img.fon {
     width: 100%;
     text-align: center;
