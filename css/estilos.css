@@ -19,10 +19,6 @@ img.fon {
     text-align: center;
     transition: all 1s ease-out;     
 }
-.fon:hover{
-    transform: scale(0.96);
-    transition: all 1s ease-out; 
-}
 
 .container{
     width: 83.3%;
