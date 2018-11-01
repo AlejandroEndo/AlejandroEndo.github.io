@@ -422,6 +422,25 @@ filter: grayscale(90%);
     .abou h2{
         font-size: 50px;
     }
+    #contact{
+        margin-top: 0;
+    }
+    #contact h3{
+        font-size: 50px;
+    }  
+    #co1{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    #co1 ul {
+    width: 100%;}
+    #co2{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom:80px;
+    }
+    
     #skills{
             margin-top: 0;
     }
