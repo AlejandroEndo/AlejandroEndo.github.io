@@ -103,6 +103,7 @@ img.fon {
     right: -162px;
 }
 #rotar img{
+    animation: def 2s;
     transition: all 12s ease-out;
 }
 #rotar img:hover{
