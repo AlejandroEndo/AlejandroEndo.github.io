@@ -406,10 +406,11 @@ filter: grayscale(90%);
             }
     #titulo {
     bottom: 201px;
+    font-size: 25px;        
     }
     
     #nombre p {
-    font-size: 80px;}
+    font-size: 63px;}
     
     .abou {
         width: 95%;
