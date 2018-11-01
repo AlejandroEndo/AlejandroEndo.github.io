@@ -14,6 +14,7 @@
   
         
       }
+
 .fon{
     position: fixed;
     z-index: -1;
@@ -43,7 +44,7 @@ img.fon {
 #nombre p {
     font-family: 'Roboto Mono', monospace;
     font-size: 91px;
-    font-weight: 700;
+    font-weight: 400;
     display: inline-block;
 }
 .color{
@@ -89,7 +90,7 @@ img.fon {
 }
 .abou h2{
     font-size: 77px;
-    font-weight: 400;
+    font-weight: 700;
     color:#cc0066;
     animation: def 2s;    
 }
@@ -291,7 +292,7 @@ a.fcerrar {
 }
 #co1 h3{
     font-size: 77px;
-    font-weight: 400;
+    font-weight: 700;
     color: #cc0066;
 }
 #co1 p{
@@ -388,3 +389,4 @@ a.fcerrar {
   100%{margin-left: 0;}
 
 }
+
