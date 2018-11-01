@@ -434,6 +434,8 @@ filter: grayscale(90%);
     #skills ul li{
         width: 20%;
     }
+#work ul li {
+    width: 50%;}    
 
 }
 
