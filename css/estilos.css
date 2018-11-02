@@ -280,6 +280,7 @@ a.fcerrar {
 .detalle p{
     color: #989898;
     margin-bottom: 15px;
+    text-align: justify;
 }
 #contact{
     margin-top: 150px;
