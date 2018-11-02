@@ -80,7 +80,7 @@ img.fon {
    bottom: 97px;
    right: 0.6%;
    font-family: 'IBM Plex Mono', monospace;
-   font-size: 25px;
+   font-size: 20px;
       
 }
 .abou{
@@ -295,7 +295,6 @@ a.fcerrar {
     font-size: 77px;
     font-weight: 700;
     color: #cc0066;
-    border-bottom: 1px solid #838383;;
     margin-bottom: 60px;
 }
 #co1 p{
