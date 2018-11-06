@@ -14,8 +14,8 @@
 .detalle p {
 	font-size: 14px;
 }
-#work {
-	margin-bottom: 50px;
+#work ul {
+    margin: 60px 0;
 }
 .fon{
     position: fixed;
