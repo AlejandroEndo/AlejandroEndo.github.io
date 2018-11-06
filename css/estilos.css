@@ -15,7 +15,6 @@
         
       }
 .detalle p {
-	text-align: justify;
 	font-size: 14px;
 }
 .fon{
@@ -92,6 +91,7 @@ img.fon {
     animation: ent 2s;    
 }
 .abou h2{
+    font-family: 'Roboto Mono', monospace;	
     font-size: 77px;
     font-weight: 700;
     color:#cc0066;
@@ -141,23 +141,15 @@ img.fon {
     
     width: 100%;
     margin-bottom: -7px;
-    -webkit-filter: grayscale(50%);
-    filter: grayscale(50%);
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%);
     transition: all 0.2s ease-out;     
 }
 #work ul li {
     width: 25%;
     overflow: hidden;
     
-}
-/**#work a:hover:before {
-    color: #fff;
-    border: 1px solid red;
-    position: absolute;
-    content: "View project";
-    text-align: center;
-    transition: all 0.5s;
-}*/
+} 
 #work ul li img:hover {
     transform: scale(1.1);
     -webkit-filter: grayscale(0%);
@@ -280,10 +272,14 @@ a.fcerrar {
     margin-bottom: 20px;
     border-bottom: 1px solid #e3e3e3;
 }
+.detalle h3 a{
+	text-decoration: none;
+	color:#000;
+}
 .detalle p{
     color: #989898;
     margin-bottom: 15px;
-    text-align: justify;
+    text-align: left;
 }
 #contact{
     margin-top: 150px;
@@ -296,6 +292,7 @@ a.fcerrar {
 
 }
 #co1 h3{
+    font-family: 'Roboto Mono', monospace;	
     font-size: 77px;
     font-weight: 700;
     color: #cc0066;
