@@ -14,7 +14,10 @@
   
         
       }
-
+.detalle p {
+	text-align: justify;
+	font-size: 14px;
+}
 .fon{
     position: fixed;
     z-index: -1;
