@@ -10,12 +10,12 @@
         height: 100%;
         background: #dad9d8;
         z-index: -1;
-        font-family: 'Overpass', sans-serif;
-  
-        
-      }
+       font-family: 'Overpass', sans-serif;  }
 .detalle p {
 	font-size: 14px;
+}
+#work {
+	margin-bottom: 50px;
 }
 .fon{
     position: fixed;
